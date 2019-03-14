@@ -43,7 +43,7 @@ def metrics():
 
 Gunicorn Systemd 파일을 수정해줍니다.
 
-{% highlight config %}
+{% highlight ini %}
 [Service]
 ...
 Environment=prometheus_multiproc_dir=/temp/to/path
