@@ -2,6 +2,7 @@
 layout: post
 title:  "Gunicorn, Flask에 Prometheus Exporter 적용하기"
 date:   2019-03-12 14:56:26 +0900
+author: kimkkikki
 categories: flask
 comments: true
 ---
