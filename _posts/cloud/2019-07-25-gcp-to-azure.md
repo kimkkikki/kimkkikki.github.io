@@ -7,7 +7,7 @@ categories: cloud
 comments: true
 ---
 
-GCP Compute Engine에서 [한국인의 이름통계](https://koreanname.me) 운영를 운영하고 있었습니다. 그러다 서버 VM의 사이즈를 축소 하고 싶었었습니다.
+GCP Compute Engine에서 [한국인의 이름통계](https://koreanname.me) 서비스를 운영하고 있었습니다. 그러다 서버 VM의 사이즈를 축소 하고 싶었었습니다.
 GCE의 VM의 사이즈를 축소하려면 일단 서버 종료 -> VM 머신 유형 변경 -> 서버 시작 단계를 거쳐야 합니다.
 
 일단 서버 종료 -> VM 머신 유형 변경까지는 손쉽게 되었습니다. 문제는 서버 시작에서 발생했습니다.
@@ -18,11 +18,11 @@ GCE의 VM의 사이즈를 축소하려면 일단 서버 종료 -> VM 머신 유�
 
 문제해결을 위해 Google 쪽에 연락해보려고 했습니다.
 
-![Image alt gcp_support_package](/assets/gcp_support_package.png)
-
 결제 관련 고객센터에 문의해보니 이상한 상태라고 하더라도 결제가 진행되니 서버를 정지시키라 하길래 일단 정지.
 서버가 제대로 켜지지 않는 상태에 대해 문의하려 해도, 브론즈 패키지는 **문의 자체가 불가능**하고 실버 이상이여야 한답니다..
 실버를 가입하려면 월 \$150!!
+
+![Image alt gcp_support_package](/assets/gcp_support_package.png)
 
 돈이 없으면 안켜져도 물어볼 수 없는거죠. 저도 월 \$200씩 돈내고 쓰는 고객이었는데 아무리 소규모 고객이라도,
 고객응대가 이러면 안되는 것이라고 생각하는데 구글은 그렇지 않나봅니다.
